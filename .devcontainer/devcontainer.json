@@ -8,5 +8,6 @@
     "devpod": {
       "prebuildRepository": "ghcr.io/loft-sh/devpod-example-go"
     }
-  }
+  },
+  "userEnvProbe": "none"
 }
