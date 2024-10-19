@@ -4,7 +4,6 @@ RUN apt-get -q update && \
     apt-get install -y --no-install-recommends \
     sudo \
     && rm -rf /var/lib/apt/lists/*
-asldkfjlaskdj
 ARG USERNAME=vscode
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID

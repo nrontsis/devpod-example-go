@@ -1,8 +1,7 @@
 {
   "name": "Go Example",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "image": "PATH_TO_PRE_BUILD_IMAGE_OF_./DOCKERFILE",
   "forwardPorts": [4000],
-  "userEnvProbe": "none"
+  "userEnvProbe": "none",
+  "postCreateCommand": "echo $ENV"
 }
